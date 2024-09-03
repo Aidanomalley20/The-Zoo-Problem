@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(87, 87, 87);
+  font-family: monospace;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  border: solid 2px;
+  border-radius: 15px;
+  box-shadow: 7px 7px 10px 5px;
+  margin: 20px 50px 20px 50px;
+  background-color: rgba(255, 255, 255, 0.623);
+  font-size: 20px;
+}
+.main {
+  background-color: rgba(255, 255, 255, 0.623);
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  border: solid 2px;
+  border-radius: 15px;
+  box-shadow: 7px 7px 10px 5px;
+  margin: 20px 50px 20px 50px;
+  padding: 10px;
+}
+ul {
+  margin: 0;
+}
+li{
+    font-size: 25px;
+}
+h2 {
+  margin: 5px;
+  text-decoration: underline;
+  font-size: 25px;
+}
+img {
+  height: 250px;
+  width: 200px;
+}
